@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * firmas-demo service
+ * card service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::firmas-demo.firmas-demo');
+module.exports = createCoreService('api::card.card');

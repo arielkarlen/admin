@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "cards"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titular": {
+      "type": "string"
+    },
+    "numeroDeTarjeta": {
+      "type": "string"
+    },
+    "fechaExpiracion": {
+      "type": "string"
+    },
+    "cvv": {
+      "type": "string"
+    }
+  }
+}
