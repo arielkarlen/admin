@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_headers_header_homes",
+  "info": {
+    "displayName": "Header_Home",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Subtitulo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "cliente_demos",
+  "info": {
+    "singularName": "cliente-demo",
+    "pluralName": "cliente-demos",
+    "displayName": "Cliente demo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Texto_listado": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    }
+  }
+}

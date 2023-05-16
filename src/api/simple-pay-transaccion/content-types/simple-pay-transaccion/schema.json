@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simple_pay_transaccions",
+  "info": {
+    "singularName": "simple-pay-transaccion",
+    "pluralName": "simple-pay-transaccions",
+    "displayName": "Simple Pay - Transaccion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fecha": {
+      "type": "string"
+    },
+    "Importe": {
+      "type": "decimal"
+    },
+    "Entidad": {
+      "type": "string"
+    },
+    "Comercio": {
+      "type": "string"
+    },
+    "Sucursal": {
+      "type": "string"
+    },
+    "Caja": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "enumeration",
+      "enum": [
+        "Pagado",
+        "Anulado",
+        "Pendiente"
+      ]
+    },
+    "Id_Tx_Procesador": {
+      "type": "integer"
+    },
+    "Procesador": {
+      "type": "string"
+    },
+    "Canal": {
+      "type": "string"
+    },
+    "Medio_de_pago": {
+      "type": "string"
+    }
+  }
+}
