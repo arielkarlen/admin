@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paylinks",
+  "info": {
+    "singularName": "paylink",
+    "pluralName": "paylinks",
+    "displayName": "paylink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "paylinks.items"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dni": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "cardNumber": {
+      "type": "string"
+    },
+    "cardName": {
+      "type": "string"
+    },
+    "cardDni": {
+      "type": "string"
+    },
+    "cardDate": {
+      "type": "string"
+    },
+    "cardCvv": {
+      "type": "string"
+    },
+    "pay": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
